@@ -4,7 +4,7 @@ function setup() {
 
 function draw() {
 background(0);
-for (y = 500; y > 20; y = y - 20){
+for (y = 500; y > 0; y = y - 20){
   if (y % 3 == 0){
     fill(0, 255, 0);
   }
